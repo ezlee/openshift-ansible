@@ -23,7 +23,7 @@ deployment_vars:
     region: us-east-1
     ssh_user: centos 
     sudo: yes
-    keypair: qwikLABS-L131-354793 
+    keypair: <replace with your keypair> 
     type: m4.large
     security_groups: [ 'public' ]
     vpc_subnet:
