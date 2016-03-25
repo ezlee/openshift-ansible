@@ -17,12 +17,13 @@ deployment_rhel7_ent_base:
 deployment_vars:
   origin:
     # centos-7, requires marketplace
-    image: ami-61bbf104
-    image_name:
+    #image: ami-61bbf104
+    image: ami-2051294a
+    image_name: centos7
     region: us-east-1
-    ssh_user: centos
+    ssh_user: centos 
     sudo: yes
-    keypair: libra
+    keypair: qwikLABS-L131-354793 
     type: m4.large
     security_groups: [ 'public' ]
     vpc_subnet:
